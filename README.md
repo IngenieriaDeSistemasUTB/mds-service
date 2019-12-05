@@ -14,6 +14,11 @@ Create _.env_ file on _api_ folder:
     WhiteList=
     SERVICE_MOODLE_URL=
 
+
+Create _.env_ file on _frontend_ folder:
+
+   REACT_URL_API =
+
 ## Deploy
 
     docker-compose up --build
