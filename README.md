@@ -17,7 +17,7 @@ Create _.env_ file on _api_ folder:
 
 Create _.env_ file on _frontend_ folder:
 
-   REACT_URL_API =
+    REACT_URL_API=
 
 ## Deploy
 
