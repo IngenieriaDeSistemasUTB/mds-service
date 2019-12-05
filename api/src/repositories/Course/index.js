@@ -2,11 +2,7 @@ const axios = require('axios')
 const WebServiceUri = require('../../helpers/webserviceuri')
 const Auth = require('../../helpers/Auth')
 const CustomError = require('../../helpers/utils/CustomError')
-const Week = require('./Week')
 const { MoodleApiFunctions } = require('../../../constants')
-// import { Module } from './Week/Module';
-// import { throws } from 'assert';
-// import { type } from 'os';
 const { GetSyllabusWords, GetFolderNamesSuffixWords, GetFileNamesSuffixWords, GetPercentajeToBeValid, GetTotalFileNameSuffix, GetTotalFolderNameSuffix } = require('../../helpers/utils')
 
 class Course {

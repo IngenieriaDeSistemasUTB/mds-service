@@ -5,7 +5,8 @@ module.exports = {
 		LOCAL_MOODLE_CATEGORIES_DATA_GET: 'local_moodle_categories_data_get',
 		LOCAL_MOODLE_CATEGORIES_COURSES: 'local_moodle_categories_courses',
 		LOCAL_MOODLE_CATEGORIES_CHILDS: 'local_moodle_categories_childs',
-		LOCAL_MOODLE_CATEGORIES_GET_CATEGORY: 'local_moodle_categories_get_category'
+		LOCAL_MOODLE_CATEGORIES_GET_CATEGORY: 'local_moodle_categories_get_category',
+		LOCAL_MOODLE_CATEGORIES_GET_LOGS: 'local_moodle_categories_get_logs'
 	},
 	MoodleApiFunctions: {
 		CORE_COURSE_GET_CONTENTS: 'core_course_get_contents',

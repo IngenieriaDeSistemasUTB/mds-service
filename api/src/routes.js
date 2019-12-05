@@ -3,6 +3,7 @@ const express = require("express");
 const router = express.Router();
 const category = require('./controllers/Category')
 const course = require('./controllers/Course')
+const logs = require('./controllers/Logs')
 
 module.exports = () => {
   //index
@@ -15,6 +16,7 @@ module.exports = () => {
   indexRouter.get("/category/:id/childs", category.GetCategoires);
   indexRouter.get("/course/:id", course.GetCourse);
   indexRouter.get("/course/:id/validation", course.GetCourseValidation);
+  indexRouter.get("/logs/:idnumber", logs.getLogs);
 
   router.use("/", indexRouter);
 
