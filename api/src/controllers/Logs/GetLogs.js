@@ -15,10 +15,6 @@ const GetLogs = async (req, res) => {
         if (response.data) {
             const logs = new Logs(response.data)
 
-            if (ConvertQuerySearch(req.query.GroupLogs)) {
-                await logs.groupLogs()
-            }
-
             if (ConvertQuerySearch(req.query.Graphs)) {
                 await logs.createGraphs()
             }
