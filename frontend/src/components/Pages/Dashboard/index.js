@@ -6,7 +6,7 @@ import Toolbar from 'emerald-ui/lib/Toolbar';
 import request from '../../../utils/requets';
 
 import './css/dashboard.css';
-const { REACT_URL_API = ' http://localhost:3050/' } = process.env
+const { REACT_URL_API = 'http://10.99.5.179:3050/' } = process.env
 
 
 class Body extends Component {
@@ -23,8 +23,7 @@ class Body extends Component {
   }
 
   async handlerSearchStudents() {
-    // const response = await request.get(`${URL_API}course/${CourseId}`)
-    console.log(REACT_URL_API);
+    const response = await request.get(`${REACT_URL_API}logs/${this.state.studentCode}`)
 
     await this.setState({
       studentData: {
