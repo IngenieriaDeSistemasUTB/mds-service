@@ -29,48 +29,48 @@ class Body extends Component {
       studentData: {
         "nombre": "Rafael Rocha Barrios",
         code: this.state.studentCode,
-        login_number: 57,
+        login_number: 62,
         graphs: {
           am_attendees_courses: {
             seriesName: "Cursos-visitados",
             title: "Visitas por curso",
-            yAxis: [30, 40, 45, 50, 49, 60, 70, 91],
-            xAxis: [1991, 1992, 1993, 1994, 1995, 1996, 1997, 1998, 1999]
+            yAxis: [30, 40, 9, 0, 20, 40],
+            xAxis: ["curso 1", "curso 2", "curso 3", "curso 4", "curso 5", "curso 6"]
           },
           am_resources_courses: {
             seriesName: "Recursos",
             title: "Recursos por curso",
-            yAxis: [30, 40, 45, 50, 49, 60, 70, 91],
-            xAxis: [1991, 1992, 1993, 1994, 1995, 1996, 1997, 1998, 1999]
+            yAxis: [11, 17, 20, 0, 30, 15],
+            xAxis: ["curso 1", "curso 2", "curso 3", "curso 4", "curso 5", "curso 6"]
           },
           am_interaction_resources_courses: {
             seriesName: "Recursos revisados",
             title: "Interacción de recurso por cursos",
-            yAxis: [30, 40, 45, 50, 49, 60, 70, 91],
-            xAxis: [1991, 1992, 1993, 1994, 1995, 1996, 1997, 1998, 1999]
+            yAxis: [11, 3, 2, 0, 10, 6],
+            xAxis: ["curso 1", "curso 2", "curso 3", "curso 4", "curso 5", "curso 6"]
           },
           am_activities_sent_courses: {
             seriesName: "Actividades",
             title: "Actividades enviadas por cursos",
-            yAxis: [30, 40, 45, 50, 49, 60, 70, 91],
-            xAxis: [1991, 1992, 1993, 1994, 1995, 1996, 1997, 1998, 1999]
+            yAxis: [7, 10, 5, 0, 1, 15],
+            xAxis: ["curso 1", "curso 2", "curso 3", "curso 4", "curso 5", "curso 6"]
           },
           am_activities_not_sent_courses: {
             seriesName: "Actividades",
             title: "Actividades no enviadas por cursos",
-            yAxis: [30, 40, 45, 50, 49, 60, 70, 91],
-            xAxis: [1991, 1992, 1993, 1994, 1995, 1996, 1997, 1998, 1999]
+            yAxis: [0, 5, 2, 0, 6, 2],
+            xAxis: ["curso 1", "curso 2", "curso 3", "curso 4", "curso 5", "curso 6"]
           },
           am_cumplition_courses: {
             seriesName: "Porcentaje de cumplimiento",
             title: "Porcentaje de cumplimiento por cursos",
-            yAxis: [30, 40, 45, 50, 49, 60, 70, 91],
-            xAxis: [1991, 1992, 1993, 1994, 1995, 1996, 1997, 1998, 1999]
+            yAxis: [((7 / (7 + 0)) * 100).toFixed(2), ((10 / (10 + 5)) * 100).toFixed(2), ((5 / (5 + 2)) * 100).toFixed(2), ((0 / (0 + 0)) * 100).toFixed(2), ((1 / (1 + 6)) * 100).toFixed(2), ((15 / (15 + 2)) * 100).toFixed(2)],
+            xAxis: ["curso 1", "curso 2", "curso 3", "curso 4", "curso 5", "curso 6"]
           },
           am_login_by_week: {
             seriesName: "Ingresos a savio",
             title: "Ingresos por semanas",
-            yAxis: [2, 4, 10, 0, 7, 15, 1, 2, 3, 6, 7, 8, 9, 1, 4, 6],
+            yAxis: [2, 4, 5, 0, 7, 5, 1, 2, 3, 6, 7, 5, 4, 1, 4, 6],
             xAxis: ["Semana 1", "Semana 2", "Semana 3", "Semana 4", "Semana 5", "Semana 6",
               "Semana 7", "Semana 8", "Semana 9", "Semana 10", "Semana 11", "Semana 12", "Semana 13",
               "Semana 14", "Semana 15", "Semana 16"]
