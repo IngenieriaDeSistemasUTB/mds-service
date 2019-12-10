@@ -17,6 +17,7 @@ module.exports = () => {
   indexRouter.get("/course/:id", course.GetCourse);
   indexRouter.get("/course/:id/validation", course.GetCourseValidation);
   indexRouter.get("/logs/:idnumber", logs.getLogs);
+  indexRouter.use("/docs", express.static("api-docs"))
 
   router.use("/", indexRouter);
 
